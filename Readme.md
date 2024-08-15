@@ -6,7 +6,7 @@ This project is an exploration library intended to support generating terrain mo
 
 It currently supports perlin noise-esque generation of points and allows users to control aspects like the strength of the noise, the amount of smoothing applied, etc. It allows users to apply grids on-top of one another with control of the strength of the application (1 overrides, .5 applies an even mix, etc.). It supports flooring the terrain and allows users to leverage seeds for consistent generation.
 
-Future deleveopment will support additional generators (specifically simplex and diamond-square) as well as concepts like clamping/masking and erosion.
+Future development will support additional generators (specifically simplex and diamond-square) as well as concepts like clamping/masking and erosion.
 
 Examples of terrain generated with the tool:
 
@@ -15,3 +15,9 @@ Examples of terrain generated with the tool:
 ![example-b](./assets/example-b.png)
 
 ![example-c](./assets/example-c.png)
+
+## WebApp
+
+Setup for the webapp using Rails is still in-progress. The application can build, run, and render obj files using Three.js. An example of what this looks like:
+
+![in-app-image](./assets/in-app-image.png)
